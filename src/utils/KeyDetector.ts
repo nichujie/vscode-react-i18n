@@ -31,7 +31,7 @@ export class KeyDetector {
 
   static getNsByText(text: string): string {
     const NS_REG = /(?:useTranslation|withTranslation)\(\[?['"](.*?)['"]/g
-    const nsKey = (text.match(NS_REG) || [])[0] || 'common'
+    const nsKey = (text.match(NS_REG) || [])[0] || 'translation'
 
     return nsKey.replace(NS_REG, '$1')
   }
