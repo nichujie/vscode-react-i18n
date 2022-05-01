@@ -2,8 +2,8 @@ import * as vscode from 'vscode'
 
 // 初始化全局配置
 import Config from './core/Config'
-Config.extAuthor = 'think2011'
-Config.extName = 'react-i18n'
+Config.extAuthor = 'cheneyni'
+Config.extName = 'react-i18n-joj'
 
 import Log from './core/Log'
 import * as coreCommandsModules from './core/commands'

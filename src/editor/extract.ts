@@ -52,7 +52,7 @@ class ExtractProvider extends Extract {
 
     return [
       {
-        command: 'react-i18n.extract',
+        command: 'react-i18n-joj.extract',
         title: `提取为{t('key')}`,
         arguments: [
           {
@@ -65,7 +65,7 @@ class ExtractProvider extends Extract {
         ]
       },
       {
-        command: 'react-i18n.extract',
+        command: 'react-i18n-joj.extract',
         title: `提取为t('key')`,
         arguments: [
           {
